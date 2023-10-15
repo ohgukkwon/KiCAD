@@ -1,0 +1,31 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid db5bbb50-b4dc-4daf-90c6-2be0320efc4c)
+
+  (paper "A3")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 40.64 34.29) (size 53.34 19.05) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 551ce4e1-9742-458d-b0b3-4f7377df9173)
+    (property "Sheetname" "POWER_DIST" (at 40.64 33.5784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "POWER_DIST.kicad_sch" (at 40.64 53.9246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ValorIntlk"
+        (path "/db5bbb50-b4dc-4daf-90c6-2be0320efc4c" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
