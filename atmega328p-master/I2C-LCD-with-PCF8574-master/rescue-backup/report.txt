@@ -1,0 +1,36 @@
+Info: Backing up file '/home/okwon-hp/Documents/KiCAD/atmega328p-master/I2C-LCD-with-PCF8574-master/sym-lib-table' to '/home/okwon-hp/Documents/KiCAD/atmega328p-master/I2C-LCD-with-PCF8574-master/rescue-backup/sym-lib-table-2025-05-03-16-07-05'.
+Info: Backing up file '/home/okwon-hp/Documents/KiCAD/atmega328p-master/I2C-LCD-with-PCF8574-master/PCF8574_LCD.sch' to '/home/okwon-hp/Documents/KiCAD/atmega328p-master/I2C-LCD-with-PCF8574-master/rescue-backup/PCF8574_LCD-2025-05-03-16-07-05.sch'.
+Info: Backing up file '/home/okwon-hp/Documents/KiCAD/atmega328p-master/I2C-LCD-with-PCF8574-master/PCF8574_LCD.kicad_pro' to '/home/okwon-hp/Documents/KiCAD/atmega328p-master/I2C-LCD-with-PCF8574-master/rescue-backup/PCF8574_LCD-2025-05-03-16-07-05.kicad_pro'.
+Info: Backing up file '/home/okwon-hp/Documents/KiCAD/atmega328p-master/I2C-LCD-with-PCF8574-master/PCF8574_LCD-cache.lib' to '/home/okwon-hp/Documents/KiCAD/atmega328p-master/I2C-LCD-with-PCF8574-master/rescue-backup/PCF8574_LCD-cache-2025-05-03-16-07-05.lib'.
+Info: Backing up file '/home/okwon-hp/Documents/KiCAD/atmega328p-master/I2C-LCD-with-PCF8574-master/PCF8574_LCD.cache.lib' to '/home/okwon-hp/Documents/KiCAD/atmega328p-master/I2C-LCD-with-PCF8574-master/rescue-backup/PCF8574_LCD.cache-2025-05-03-16-07-05.lib'.
+Info: Backing up file '/home/okwon-hp/Documents/KiCAD/atmega328p-master/I2C-LCD-with-PCF8574-master/PCF8574_LCD-rescue.lib' to '/home/okwon-hp/Documents/KiCAD/atmega328p-master/I2C-LCD-with-PCF8574-master/rescue-backup/PCF8574_LCD-rescue-2025-05-03-16-07-05.lib'.
+Info: Backing up file '/home/okwon-hp/Documents/KiCAD/atmega328p-master/I2C-LCD-with-PCF8574-master/PCF8574_LCD-rescue.dcm' to '/home/okwon-hp/Documents/KiCAD/atmega328p-master/I2C-LCD-with-PCF8574-master/rescue-backup/PCF8574_LCD-rescue-2025-05-03-16-07-05.dcm'.
+Info: Adding library 'PCF8574_LCD-rescue', file '${KIPRJMOD}/PCF8574_LCD-rescue.lib' to project symbol library table.
+Symbol +5V mapped to symbol library 'PCF8574_LCD-rescue'.
+Symbol +5V mapped to symbol library 'PCF8574_LCD-rescue'.
+Symbol LV_1602_LCD_HD44780_6+6 mapped to symbol library 'PCF8574_LCD-rescue'.
+Symbol POT mapped to symbol library 'PCF8574_LCD-rescue'.
+Symbol GND mapped to symbol library 'PCF8574_LCD-rescue'.
+Symbol GND mapped to symbol library 'PCF8574_LCD-rescue'.
+Symbol +5V mapped to symbol library 'PCF8574_LCD-rescue'.
+Symbol PWR_FLAG mapped to symbol library 'PCF8574_LCD-rescue'.
+Symbol GND mapped to symbol library 'PCF8574_LCD-rescue'.
+Symbol PWR_FLAG mapped to symbol library 'PCF8574_LCD-rescue'.
+Symbol GND mapped to symbol library 'PCF8574_LCD-rescue'.
+Symbol CONN_4 mapped to symbol library 'PCF8574_LCD-rescue'.
+Symbol +5V mapped to symbol library 'PCF8574_LCD-rescue'.
+Symbol JUMPER3 mapped to symbol library 'PCF8574_LCD-rescue'.
+Symbol +5V mapped to symbol library 'PCF8574_LCD-rescue'.
+Symbol R mapped to symbol library 'PCF8574_LCD-rescue'.
+Symbol GND mapped to symbol library 'PCF8574_LCD-rescue'.
+Symbol GND mapped to symbol library 'PCF8574_LCD-rescue'.
+Symbol PCF8574 mapped to symbol library 'PCF8574_LCD-rescue'.
+Symbol C mapped to symbol library 'PCF8574_LCD-rescue'.
+Symbol +5V mapped to symbol library 'PCF8574_LCD-rescue'.
+Symbol +5V mapped to symbol library 'PCF8574_LCD-rescue'.
+Symbol +5V mapped to symbol library 'PCF8574_LCD-rescue'.
+Symbol R mapped to symbol library 'PCF8574_LCD-rescue'.
+Symbol R mapped to symbol library 'PCF8574_LCD-rescue'.
+Info: Symbol library table mapping complete!
+Info: Created project symbol library table.
+

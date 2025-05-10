@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "PCF8574_LCD-rescue")(type "Legacy")(uri "${KIPRJMOD}/PCF8574_LCD-rescue.lib")(options "")(descr ""))
+)
