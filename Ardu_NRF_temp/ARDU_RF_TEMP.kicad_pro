@@ -501,7 +501,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "ARDU_RF_TEMP.net",
-      "plot": "Gerbers/",
+      "plot": " Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

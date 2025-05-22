@@ -2,145 +2,9 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "896ec99f-2e78-4cd4-95ad-841857334673")
+	(uuid "f1a5f297-7b7c-4c52-ac6a-508cb40ee805")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Add_new:LCD_16X2_I2C"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "DS"
-				(at 2.286 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LCD_16X2_I2C VERTICAL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 1.778 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "LCD_16X2_I2C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LCD_16X2_I2C_0_1"
-				(rectangle
-					(start -12.7 2.54)
-					(end 17.78 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LCD_16X2_I2C_1_1"
-				(pin input line
-					(at -11.43 -8.89 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -8.89 -8.89 90)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -6.35 -8.89 90)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -3.81 -8.89 90)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x04_Socket"
 			(pin_names
 				(offset 1.016)
@@ -617,244 +481,124 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 41.275 91.44)
+		(end 78.105 107.95)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 50 9 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a176905c-4fa2-4c3c-9e00-f9904272d1a2)
+	)
+	(text "I2C IO TEST"
+		(exclude_from_sim no)
+		(at 69.85 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4bc83868-e6ac-4439-99b9-5cfad4c0b0d0")
+	)
 	(wire
 		(pts
-			(xy 267.97 142.24) (xy 267.97 151.13)
+			(xy 52.07 99.06) (xy 62.23 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "53f71769-f0f0-4296-96c0-1b82db8c7b57")
+		(uuid "2c54b9c7-2a35-4501-a3ca-a094289b187e")
 	)
 	(wire
 		(pts
-			(xy 273.05 142.24) (xy 273.05 151.13)
+			(xy 52.07 96.52) (xy 66.04 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "69a76040-a2aa-4326-841a-30205cbbf2d9")
+		(uuid "68e37a99-b853-457f-b25e-b9875fa7546d")
 	)
 	(wire
 		(pts
-			(xy 275.59 142.24) (xy 275.59 151.13)
+			(xy 52.07 101.6) (xy 62.23 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a65a9383-811c-47d3-a565-9c8bd05b0375")
+		(uuid "bb7f0190-666d-46a4-a92d-c07f4c255355")
 	)
 	(wire
 		(pts
-			(xy 270.51 142.24) (xy 270.51 151.13)
+			(xy 52.07 93.98) (xy 66.04 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bf837cd1-c115-419e-b692-870e6c1aca5b")
+		(uuid "f0c6336d-cd88-42c6-a3f0-03ba85d2ecee")
 	)
-	(global_label "SDA"
+	(global_label "SDA1"
 		(shape input)
-		(at 273.05 151.13 270)
+		(at 62.23 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "b213816e-69a5-46fe-b8cd-64557d0f7951")
+		(uuid "1317fb47-209f-44b8-9d30-3e32c7db3f17")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.05 157.0291 90)
+			(at 69.9928 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
-	(global_label "SCL"
+	(global_label "SCL1"
 		(shape input)
-		(at 275.59 151.13 270)
+		(at 62.23 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "bb21718d-9730-4f96-bca8-b6779f34f87a")
+		(uuid "9889c0ac-4970-49ed-8b21-8915ddf5f561")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 275.59 156.9686 90)
+			(at 69.9323 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Socket")
-		(at 270.51 137.16 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5b9aedcf-9dd0-497f-8f48-d66c86bc0d72")
-		(property "Reference" "J6"
-			(at 261.874 143.002 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04_Socket"
-			(at 255.27 137.922 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Add_New:Conn_4x1_90deg_angle"
-			(at 270.51 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 270.51 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 270.51 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9382414c-a7a9-4a68-b7fa-fcda3963f842")
-		)
-		(pin "3"
-			(uuid "7f5d86d7-0ca5-4c10-8697-424ed7464721")
-		)
-		(pin "4"
-			(uuid "df4328a9-255c-4ad6-912b-e3c0ada08fd6")
-		)
-		(pin "1"
-			(uuid "2a6937ef-45ab-4d15-b98d-8a85486dadcc")
-		)
-		(instances
-			(project ""
-				(path "/cd2f0210-fc6f-496a-9585-f4ac644488ef/ad288336-8192-4470-82de-4fa6307eec75"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 267.97 151.13 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "685c99d6-7117-465d-a529-d60b8dfc6a4e")
-		(property "Reference" "#PWR017"
-			(at 267.97 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 267.9699 154.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 267.97 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 267.97 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f85dad53-6a42-49f9-a7b6-93ff3ea6ca84")
-		)
-		(instances
-			(project "atmega328p_base"
-				(path "/cd2f0210-fc6f-496a-9585-f4ac644488ef/ad288336-8192-4470-82de-4fa6307eec75"
-					(reference "#PWR017")
-					(unit 1)
-				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 270.51 151.13 0)
-		(mirror x)
+		(at 66.04 93.98 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "840031e8-a02a-463e-a417-734ac7a839c9")
-		(property "Reference" "#PWR018"
-			(at 270.51 147.32 0)
+		(uuid "10a5dc12-f7e5-4830-9815-e53980e251f7")
+		(property "Reference" "#PWR039"
+			(at 62.23 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -862,8 +606,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 270.51 154.94 90)
+		(property "Value" "VCC1"
+			(at 69.85 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -872,7 +616,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 270.51 151.13 0)
+			(at 66.04 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -881,7 +625,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 151.13 0)
+			(at 66.04 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -890,7 +634,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 270.51 151.13 0)
+			(at 66.04 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -898,45 +642,47 @@
 			)
 		)
 		(pin "1"
-			(uuid "3d8162c0-c93b-4248-a82a-59c9acae58f7")
+			(uuid "f720c53f-f8d7-4bf9-994a-901568e0deec")
 		)
 		(instances
-			(project "atmega328p_base"
-				(path "/cd2f0210-fc6f-496a-9585-f4ac644488ef/ad288336-8192-4470-82de-4fa6307eec75"
-					(reference "#PWR018")
+			(project "ARDU_RF_TEMP"
+				(path "/e1713ded-e7a8-4061-8cbc-980fa82671b4"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Add_new:LCD_16X2_I2C")
-		(at 279.4 128.27 0)
+		(lib_id "power:GND")
+		(at 66.04 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "de2bf845-5f17-4f88-9f00-c33acdaa3369")
-		(property "Reference" "DS1"
-			(at 281.94 120.65 0)
+		(uuid "27fb1ca5-9faf-433e-872c-8e6a686b5395")
+		(property "Reference" "#PWR040"
+			(at 72.39 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "LCD_16X2_I2C VERTICAL"
-			(at 281.94 123.19 0)
+		(property "Value" "GND1"
+			(at 69.85 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Add_New:LCD 16X2 I2C"
-			(at 279.4 128.27 0)
+		(property "Footprint" ""
+			(at 66.04 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -945,7 +691,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 281.178 128.27 0)
+			(at 66.04 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -953,8 +699,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LCD_16X2_I2C"
-			(at 279.4 128.27 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -963,21 +709,88 @@
 			)
 		)
 		(pin "1"
-			(uuid "0ebcbe1b-1950-4525-a07b-c7b632fe5905")
-		)
-		(pin "2"
-			(uuid "c302fc24-0193-44b9-932a-383ab7a60721")
-		)
-		(pin "3"
-			(uuid "5cd18367-c283-4fa1-914c-e96c3b38e37e")
-		)
-		(pin "4"
-			(uuid "76490996-e653-464e-b631-6dcbee5fcefd")
+			(uuid "ed9919ce-2b15-41be-9951-80f0178b615f")
 		)
 		(instances
-			(project ""
-				(path "/cd2f0210-fc6f-496a-9585-f4ac644488ef/ad288336-8192-4470-82de-4fa6307eec75"
-					(reference "DS1")
+			(project "ARDU_RF_TEMP"
+				(path "/e1713ded-e7a8-4061-8cbc-980fa82671b4"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 46.99 99.06 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c96f0efd-7657-479b-8fd1-cb3d19dff590")
+		(property "Reference" "J4"
+			(at 45.72 99.0601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04_Socket"
+			(at 45.72 96.5201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Add_New:CONN_PPTC041LFBN-RC_SUL"
+			(at 46.99 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 46.99 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c57a267a-8311-419c-825d-2c0feb85d19a")
+		)
+		(pin "3"
+			(uuid "a96ab536-76e0-4f8c-8768-56d8da8c9e1e")
+		)
+		(pin "4"
+			(uuid "83b869a7-9de3-429b-9d6c-4132aa081c6e")
+		)
+		(pin "1"
+			(uuid "df1e12f1-8d06-4784-be1d-3e6855280203")
+		)
+		(instances
+			(project "ARDU_RF_TEMP"
+				(path "/e1713ded-e7a8-4061-8cbc-980fa82671b4"
+					(reference "J4")
 					(unit 1)
 				)
 			)
